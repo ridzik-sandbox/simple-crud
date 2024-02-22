@@ -4,7 +4,7 @@
   "description": "Creating a simple CRUD nodejs app to host on Heroku.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/ridzik-sandbox/simple-crud/issues"
   },
-  "homepage": "https://github.com/ridzik-sandbox/simple-crud#readme"
+  "homepage": "https://github.com/ridzik-sandbox/simple-crud#readme",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "axios": "^1.6.7",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
